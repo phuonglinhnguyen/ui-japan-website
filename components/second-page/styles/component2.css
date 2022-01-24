@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.second-page-component2 {
+    position: relative;
+    width: 1440px;
+    margin: auto;
+    padding: 96px 156px;
+}
+.second-page-component2 .component2-background {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 324px;
+    background: linear-gradient(180deg, rgba(240, 247, 253, 0) 0%, #ecf5fe 100%);
+    z-index: -1;
+}
+.second-page-component2 .component2-title {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 52px;
+    color: #242829;
+    margin-bottom: 48px;
+}
+.second-page-component2 .component2-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-page-component2 .component2-body .body-left img {
+    width: 648px;
+    border-radius: 8px;
+    height: 364px;
+    box-shadow: 24px 24px 62px rgba(0, 0, 0, 0.16);
+}
+.second-page-component2 .component2-body .body-right {
+    width: 456px;
+    height: 364px;
+    padding: 30px 40px 42px 32px;
+}
+.second-page-component2 .component2-body .body-right .right-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.second-page-component2 .component2-body .body-right .right-ceo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: 0.5px;
+    color: #27435d;
+}

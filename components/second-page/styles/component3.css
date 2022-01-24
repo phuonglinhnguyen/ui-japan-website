@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.second-page-component3 {
+    width: 1440px;
+    margin: auto;
+}
+.second-page-component3 .certificate-polygon img {
+    width: 100%;
+}
+.second-page-component3 .component3-title {
+    text-align: center;
+    padding: 96px 0 42px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 52px;
+    color: #242829;
+    background: linear-gradient(180deg, #ecf5fe 0%, rgba(240, 247, 253, 0) 100%);
+    margin-bottom: 48px;
+}
+.second-page-component3 .component3-table {
+    padding: 0 156px 96px;
+}
+.second-page-component3 .component3-table table {
+    background: #e6e1e5;
+    border-radius: 8px;
+    padding: 1px;
+}
+.second-page-component3 .component3-table table tr td:nth-child(1) {
+    width: 166px;
+    padding: 15px 0px 15px 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #242829;
+}
+.second-page-component3 .component3-table table tr td:nth-child(2) {
+    width: 959px;
+    padding: 15px 0px 15px 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #242829;
+}
+.second-page-component3 .component3-table table tr:last-child {
+    padding: 6px 8px;
+}
+.second-page-component3 .component3-table table tr:last-child td:nth-child(2) {
+    padding: 6px 443px 6px 8px;
+}
+.second-page-component3 .component3-table table td {
+    background: #ffffff;
+}

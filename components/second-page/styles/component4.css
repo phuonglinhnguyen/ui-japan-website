@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.second-page-component4 {
+    position: relative;
+    width: 1440px;
+    margin: auto;
+}
+.second-page-component4 .certificate-polygon1 {
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    width: 720px;
+    z-index: -1;
+}
+.second-page-component4 .certificate-polygon2 {
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    width: 720px;
+    z-index: -1;
+}
+.second-page-component4 .certificate-polygon1 img,
+.second-page-component4 .certificate-polygon2 img {
+    width: 100%;
+}
+.second-page-component4 {
+    padding: 96px 156px;
+}
+.second-page-component4 .certificate-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 24px;
+    filter: drop-shadow(12px 18px 32px rgba(0, 0, 0, 0.12));
+}
+.second-page-component4 .certificate-item img {
+    width: 100%;
+    border-radius: 8px;
+}
