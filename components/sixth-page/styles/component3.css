@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sixth-page-component3 {
+  margin-top: 12px;
+  width: 1440px;
+  margin: auto;
+  background: #ffffff;
+  padding: 96px 156px;
+  text-align: center;
+}
+.sixth-page-component3 .component3-title {
+  padding: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 52px;
+  color: #242829;
+  margin-bottom: 48px;
+}
+.sixth-page-component3 .component3-img {
+  height: 432px;
+}
+.sixth-page-component3 .component3-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
