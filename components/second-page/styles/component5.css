@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.second-page-component5 {
+  position: relative;
+  width: 1440px;
+  margin: auto;
+  padding: 96px 156px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second-page-component5 .component5-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 52px;
+  text-align: center;
+  color: #242829;
+  margin-bottom: 49px;
+}
+.second-page-component5 .component5-table table {
+  background: #e6e1e5;
+  border-radius: 8px;
+}
+.second-page-component5 .component5-table table th {
+  width: 166px;
+  background: #ffffff;
+  padding: 15px 8px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #242829;
+}
+
+.row-table {
+  vertical-align: baseline;
+}
+
+.second-page-component5 .component5-table table tr:first-child th {
+  border-radius: 8px 0px 0px 0px;
+}
+.second-page-component5 .component5-table table tr:last-child th {
+  border-radius: 0px 0px 0px 8px;
+}
+.second-page-component5 .component5-table table tr:first-child td {
+  border-radius: 0px 8px 0px 0px;
+}
+.second-page-component5 .component5-table table tr:last-child td {
+  border-radius: 0px 0px 8px 0px;
+}
+.second-page-component5 .component5-table table td {
+  width: 959px;
+  background: #ffffff;
+  padding: 15px 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #242829;
+}
