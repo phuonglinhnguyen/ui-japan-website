@@ -29,7 +29,7 @@
   top: 0;
   height: 100%;
   width: 324px;
-  background: linear-gradient(180deg, #ecf5fe 0%, rgba(240, 247, 253, 0) 100%);
+  background: linear-gradient(180deg, rgba(240, 247, 253, 0) 0%, #ecf5fe 100%);
   z-index: -1;
 }
 .seventh-page-component2 .component2-item.reverse {
