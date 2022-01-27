@@ -25,11 +25,26 @@
   background: #e6e1e5;
   border-radius: 8px;
 }
-.second-page-component5 .component5-table table th {
+.row-table {
+  vertical-align: top;
+}
+.border-topLeft {
+  border-radius: 8px 0px 0px 0px;
+}
+.border-topRight {
+  border-radius: 0px 8px 0px 0px;
+}
+.border-bottomLeft {
+  border-radius: 0px 0px 0px 8px;
+}
+.border-bottomRight {
+  border-radius: 0px 0px 8px 0px;
+}
+.second-page-component5 .component5-table table tr td:nth-child(1) {
   width: 166px;
   background: #ffffff;
-  padding: 15px 8px;
-  text-align: left;
+  padding: 6px 16px 6px 8px;
+  backdrop-filter: blur(4px);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -37,24 +52,7 @@
   letter-spacing: 0.5px;
   color: #242829;
 }
-
-.row-table {
-  vertical-align: baseline;
-}
-
-.second-page-component5 .component5-table table tr:first-child th {
-  border-radius: 8px 0px 0px 0px;
-}
-.second-page-component5 .component5-table table tr:last-child th {
-  border-radius: 0px 0px 0px 8px;
-}
-.second-page-component5 .component5-table table tr:first-child td {
-  border-radius: 0px 8px 0px 0px;
-}
-.second-page-component5 .component5-table table tr:last-child td {
-  border-radius: 0px 0px 8px 0px;
-}
-.second-page-component5 .component5-table table td {
+.second-page-component5 .component5-table table td:nth-child(2) {
   width: 959px;
   background: #ffffff;
   padding: 15px 8px;

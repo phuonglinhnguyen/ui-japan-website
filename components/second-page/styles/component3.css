@@ -27,7 +27,18 @@
 .second-page-component3 .component3-table table {
   background: #e6e1e5;
   border-radius: 8px;
-  padding: 1px;
+}
+.border-topLeft {
+  border-radius: 8px 0px 0px 0px;
+}
+.border-topRight {
+  border-radius: 0px 8px 0px 0px;
+}
+.border-bottomLeft {
+  border-radius: 0px 0px 0px 8px;
+}
+.border-bottomRight {
+  border-radius: 0px 0px 8px 0px;
 }
 .second-page-component3 .component3-table table tr td:nth-child(1) {
   width: 166px;
@@ -51,12 +62,27 @@
 }
 
 .second-page-component3 .component3-table table tr:last-child td:nth-child(2) {
-  padding: 6px 443px 6px 8px;
+  padding: 6px 8px;
 }
 .second-page-component3 .component3-table table td {
   background: #ffffff;
 }
 
 .row-table {
-  vertical-align: baseline;
+  vertical-align: top;
+}
+.certificate-list {
+  padding: 8px 13.5px;
+  background: #f7efc4 !important;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 12px;
+  filter: drop-shadow(12px 18px 32px rgba(0, 0, 0, 0.12));
+}
+.second-page-component3 .certificate-item {
+  width: 100%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
 }
