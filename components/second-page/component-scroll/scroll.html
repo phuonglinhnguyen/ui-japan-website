@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scroll.css">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const toggleVisible = () => {
+            const scrolled = document.documentElement.scrollTop;
+            if (scrolled > 320) {
+                document.querySelector('#nav-sidebar').style.display = 'block'
+            }
+            else {
+                document.querySelector('#nav-sidebar').style.display = 'none'
+            }
+        };
+        window.addEventListener('scroll', toggleVisible);
+        $(document).ready(function () {
+            var contentSection = $('.content-section');
+            var navigation = $('nav');
+
+            //when a nav link is clicked, smooth scroll to the section
+            navigation.on('click', 'a', function (event) {
+                event.preventDefault(); //prevents previous event
+                smoothScroll($(this.hash));
+            });
+
+            //update navigation on scroll...
+            $(window).on('scroll', function () {
+                updateNavigation();
+            })
+            //...and when the page starts
+            updateNavigation();
+
+            /////FUNCTIONS
+            function updateNavigation() {
+                contentSection.each(function () {
+                    var sectionName = $(this).attr('id');
+                    var navigationMatch = $('nav a[href="#' + sectionName + '"]');
+                    if (($(this).offset().top - $(window).height() / 2 < $(window).scrollTop()) &&
+                        ($(this).offset().top + $(this).height() - $(window).height() / 2 > $(window).scrollTop())) {
+                        navigationMatch.addClass('active-section');
+                    }
+                    else {
+                        navigationMatch.removeClass('active-section');
+                    }
+                });
+            }
+            function smoothScroll(target) {
+                $('body,html').animate({
+                    scrollTop: target.offset().top
+                }, 800);
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div class="banner" style="background-image: url(./Images/banner.png);">
+        <h2 class="banner-title">企業情報</h2>
+        <nav id="nav-banner" class="nav-banner">
+            <ul class="list-banner">
+                <li class="item-banner ">
+                    <a href="#section1" class="borderLeft">
+                        ト ッ プ メ ッ セ ー ジ
+                    </a>
+                </li>
+                <li class="item-banner">
+                    <a href="#section2">
+                        企 業 概 要
+                    </a>
+                </li>
+                <li class="item-banner">
+                    <a href="#section3">
+                        沿 革
+                    </a>
+                </li>
+                <li class="item-banner ">
+                    <a href="#section4" class="borderRight">
+                        ア ク セ ス
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <nav id="nav-sidebar" class="nav-sidebar">
+        <ul class="list-sidebar">
+            <li class="item-sidebar">
+                <a href="#section1">
+                    ト ッ プ メ ッ セ ー ジ
+                </a>
+            </li>
+            <li class="item-sidebar">
+                <a href="#section2">
+                    企 業 概 要
+                </a>
+            </li>
+            <li class="item-sidebar">
+                <a href="#section3">
+                    沿 革
+                </a>
+            </li>
+            <li class="item-sidebar">
+                <a href="#section4">
+                    ア ク セ ス
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section id="section1" class="content-section">
+        <h1>SECTION ONE</h1>
+    </section>
+    <section id="section2" class="content-section">
+        <h1>SECTION TWO</h1>
+    </section>
+    <section id="section3" class="content-section">
+        <h1>SECTION THREE</h1>
+    </section>
+    <section id="section4" class="content-section">
+        <h1>SECTION FOUR</h1>
+    </section>
+    <div class="about"><a href="http://janetmndz.com" target="_blank">♡</a></div>
+</body>
+
+
+</html>
