@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.component6 {
+  width: 1440px;
+  margin: auto;
+  padding: 96px 156px;
+  text-align: center;
+}
+.component6 .component6-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 52px;
+  color: #242829;
+}
+.component6 .component6-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  color: #8d9599;
+  text-decoration: underline;
+  margin: 24px 0 45px;
+}
+.component6 .component6-contact {
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+}
+.component6 .component6-contact .contact-item {
+  background: #ffffff;
+  border-radius: 8px;
+  /* border:  1px solid #b9d7f3; */
+  /* width: 552px;
+  height: 432px; */
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+  padding: 24px 0 80px;
+}
+.component6 .component6-contact .contact-item .item-title {
+  background: #2582d7;
+  padding: 22px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+}
+.component6 .component6-contact .contact-item .item-body img {
+  width: 64px;
+  margin: 48px 0 12px;
+}
+.component6 .component6-contact .contact-item .item-body .body-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #242829;
+}
+.component6 .component6-contact .contact-item .item-body .body-text-left {
+  line-height: 38px;
+  margin-bottom: 12px;
+}
+.component6 .component6-contact .contact-item .item-body p {
+  color: #8d9599;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}

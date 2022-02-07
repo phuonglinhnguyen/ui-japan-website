@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.eleventh-page-component1 {
+    width: 1440px;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(240, 247, 253, 0) 0%, #ecf5fe 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eleventh-page-component1 .component1-container {
+    width: 792px;
+    padding: 48px 66px;
+    text-align: center;
+}
+.eleventh-page-component1 .component1-container .container-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 52px;
+    color: #242829;
+    margin-bottom: 24px;
+}
+.eleventh-page-component1 .component1-container .container-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #242829;
+}

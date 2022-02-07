@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.component4 {
+  width: 1440px;
+  margin: auto;
+  padding: 48px 156px 92px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: stretch;
+}
+.component4 .component4-left {
+  width: 864px;
+  height: 433px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: rgba(0, 33, 63, 0.9);
+  box-shadow: inset 1px 2px 2px rgba(255, 255, 255, 0.25);
+  border-radius: 8px 0px 0px 8px;
+}
+.component4 .component4-left .left-item {
+  padding: 0px 24px;
+  text-align: center;
+}
+.component4 .component4-left .left-item img {
+  width: 45px;
+  margin: 48px 0 24px;
+}
+.component4 .component4-left .left-item .item-text {
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.component4 .component4-right {
+  position: relative;
+  width: 264px;
+  background: linear-gradient(180deg, #2582d7 0%, rgba(37, 130, 215, 0.9) 100%);
+  box-shadow: inset 1px 2px 2px rgba(255, 255, 255, 0.25);
+  border-radius: 0px 8px 8px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.component4 .component4-right .right-title {
+  width: 100%;
+  height: 344px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.component4 .component4-right .right-button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+}
+.component4 .component4-right .right-button button {
+  width: 100%;
+  color: #2582d7;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 100px;
+}
