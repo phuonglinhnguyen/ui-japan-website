@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.eight-page-component1 {
+  width: 1128px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 24px 24px 48px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+.eight-page-component1 .component1-left {
+  width: 720px;
+}
+.eight-page-component1 .component1-right {
+  width: 336px;
+  background: #f5fafd;
+  border-radius: 8px;
+  padding: 12px;
+}
+.eight-page-component1 .component1-right .item-top,
+.eight-page-component1 .component1-right .right-item3 .item3-top {
+  display: flex;
+  align-items: flex-start;
+  padding: 6px 16px 6px 8px;
+}
+.eight-page-component1 .component1-right .top-icon,
+.eight-page-component1 .component1-right .right-item2 .item2-icon,
+.eight-page-component1 .component1-right .right-item3 .top-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+.eight-page-component1 .component1-right .top-title,
+.eight-page-component1 .component1-right .right-item2 .item2-content,
+.eight-page-component1 .component1-right .right-item3 .item3-content {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #242829;
+}
+.eight-page-component1 .component1-right .body-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #242829;
+  padding: 6px 16px 6px 8px;
+  margin: 12px 0;
+}
+.eight-page-component1 .component1-right .body-text span {
+  color: #a5a5a5;
+}
+.eight-page-component1 .component1-right .right-item2 {
+  display: flex;
+  align-items: flex-start;
+  padding: 30px 16px 30px 8px;
+  margin-bottom: 24px;
+  border-top: 1px solid #bdd3e6;
+  border-bottom: 1px solid #bdd3e6;
+}
+.eight-page-component1 .component1-right .right-item2 .item2-content span,
+.eight-page-component1 .component1-right .right-item3 .item3-content span {
+  color: #489df5;
+}
+.eight-page-component1 .component1-right .right-item3 .item3-content {
+  margin: 12px 0;
+  padding: 6px 16px 6px 8px;
+}
